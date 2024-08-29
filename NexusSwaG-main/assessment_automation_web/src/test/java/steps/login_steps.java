@@ -1,6 +1,6 @@
 package steps;
 
-import assessment.web.ui.pages.pages.loginPage;
+import assessment.web.ui.pages.loginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

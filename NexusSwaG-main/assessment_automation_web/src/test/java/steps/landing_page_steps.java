@@ -1,6 +1,6 @@
 package steps;
 
-import assessment.web.ui.pages.pages.landingPage;
+import assessment.web.ui.pages.landingPage;
 import io.cucumber.java.en.Then;
 
 public class landing_page_steps {

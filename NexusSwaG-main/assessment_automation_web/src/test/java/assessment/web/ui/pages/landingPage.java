@@ -1,4 +1,4 @@
-package assessment.web.ui.pages.pages;
+package assessment.web.ui.pages;
 
 import assessment.web.ui.utility.Constants;
 import assessment.web.ui.utility.testBase;
