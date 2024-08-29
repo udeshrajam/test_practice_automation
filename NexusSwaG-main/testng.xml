@@ -1,0 +1,7 @@
+<suite name="BDD Suite" parallel="True" thread-count="1">
+    <test name="CucumberTest1">
+        <classes>
+            <class name="runner.TestNgRunner"/>
+        </classes>
+    </test>
+</suite>

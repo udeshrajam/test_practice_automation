@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.698" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Assessment Login scenarios" name="Test case 1: Positive test (valid username and password)" time="11.697">
+<system-out><![CDATA[
+Given page header should display as "Test login"............................passed
+When enter "valid" username.................................................passed
+And enter "valid" password..................................................passed
+And click submit button.....................................................passed
+And valid header in landing page as "Logged In Successfully"................passed
+Then logout from app........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Assessment Login scenarios" name="Test case 2: Negative username test (incorrect username and valid password)" time="6.976">
+<system-out><![CDATA[
+Given page header should display as "Test login"............................passed
+When enter "incorrect" username.............................................passed
+And enter "valid" password..................................................passed
+And click submit button.....................................................passed
+Then "Your username is invalid!" error should display.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Assessment Login scenarios" name="Test case 3: Negative password test (valid username and incorrect password)" time="6.594">
+<system-out><![CDATA[
+Given page header should display as "Test login"............................passed
+When enter "valid" username.................................................passed
+And enter "incorrect" password..............................................passed
+And click submit button.....................................................passed
+Then "Your password is invalid!" error should display.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Assessment Login scenarios" name="Test case 4: Empty username and password" time="6.858">
+<system-out><![CDATA[
+Given page header should display as "Test login"............................passed
+When click submit button....................................................passed
+Then "Your username is invalid!" error should display.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
